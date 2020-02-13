@@ -20,8 +20,8 @@ Nombre
 Apellido
 Correo
 Teléfono
-Ciudad (solo podrán seleccionar "Madrid" y "Barcelona")
-Cargo a optar (solo podrán seleccionar "Desarrollador Front-end" y "Desarrollador Back-end") 
+Ciudad (solo podrán seleccionar "Madrid" o "Barcelona")
+Cargo a optar (solo podrán seleccionar "Desarrollador Front-end" o "Desarrollador Back-end") 
 Boton de enviar y cancelar (este ultimo para reiniciar los campos del formulario)
 **Footer**
 Derechos de autor de la empresa
