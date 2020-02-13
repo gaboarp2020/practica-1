@@ -14,6 +14,7 @@ En {nombreDeLaEmpresa} precisamos de talento humando en las siguientes áreas:
 *Desarrollador Back-end*
  - PHP/Laravel
  - SQL/No-SQL (Postgres, MySQL, SQL Server)
+ 
 **Formulario**
 Nombre
 Apellido
