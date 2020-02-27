@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contoso Reclutamiento</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Trade+Winds&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="CSS/style.css">
+    
 </head>
 <body>
-    <h1>Sección de reclutamiento de Contoso, C.A.¡Únete a nuestro equipo!</h1><br>
+    <h1>Sección de reclutamiento de Contoso, C.A. ¡Únete a nuestro equipo!</h1><br>
     <p>En Contoso, C.A. precisamos de talento humando en las siguientes áreas:</p><br>
     <h4 style="font-style: italic;">Desarrollador Front-end :</h4>
         <ul>
@@ -23,38 +26,41 @@
 
 
     <h3>Formulario:</h3>
-    <form action="Ejercicio 1.html" method="POST">
+    <form action="Ejercicio 1.html" method="POST" class="container">
         -Nombres:<br>
-        <input type="text" name="nombre" placeholder="Escriba aqui su nombre..."><br>
+        <input type="text" name="nombre" placeholder="Escriba aqui su nombre..." class="item"><br>
         -Apellidos:<br>
-        <input type="text" name="apellido" placeholder="Escriba aqui su apellido..."><br>
+        <input type="text" name="apellido" placeholder="Escriba aqui su apellido..." class="item"><br>
         -Teléfono:<br>
-        <input type="tel" name="telefono" placeholder="Escriba aqui su telefono..."><br>
+        <input type="tel" name="telefono" placeholder="Escriba aqui su telefono..." class="item"><br>
         -Correo Electrónico:<br>
-        <input type="email" name="correo" placeholder="Escriba aqui su correo electrónico"><br>
+        <input type="email" name="correo" placeholder="Escriba aqui su correo electrónico" class="item"><br>
         <label for="ciudad">-Ciudad</label>
         <br>
-        <select name="ciudad" id="ciudad">
+        <select name="ciudad" id="ciudad" class="item">
             <option value="madrid">Madrid</option>
             <option value="barcelona">Barcelona</option>
         </select><br>
         <label for="cargo">-Cargo a optar:</label>
-        <br>
+        <div>
             <input type="radio" id="cargo" name="front" value="front">
             <label for="male">Desarrollador Front-end</label><br>
             <input type="radio" id="cargo" name="front" value="front">
             <label for="female">Desarrollador Back-end</label><br>
             <!--<option value="front">Desarrollador Front-end</option>
             <option value="back">Desarrollador Back-end</option>-->
+        </div>
         -Experiencia (Opcinal):<br>
         <textarea placeholder="Escriba aqui un breve resumen de su experiencia en el area..."
-         type="text" rows="4" cols="50"></textarea><br>
-        <input type="reset" value="Cancelar">
-        <input type="submit" value="Enviar">
+        type="text" rows="4" cols="50" class="item"></textarea>
+        <div>
+        <input type="reset" value="Cancelar" class="btn">
+        <input type="submit" value="Enviar" class="btn">
+        </div>
     </form> 
 
     <footer style="display: block;">
-        <p>Se reservan los derechos de autor a la empresa Contoso, C.A.</p>
+        <p align= "center";>Se reservan los derechos de autor a la empresa Contoso, C.A.</p>
     </footer> 
 
     <br>
