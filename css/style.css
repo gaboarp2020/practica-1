@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Spinnaker&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Orbitron, sans-serif;
+}
+p, ul, ol, li, label, strong, td {
+    font-family: Spinnaker, serif;
+}
+tr, td {
+    border: solid;
+    padding: 15px;
+}
+.formulario {
+   display: flex;
+   flex-flow: column wrap;
+   padding: 15px;
+}
+.entr {
+    width: 150px;
+    height: 5px;
+}
+select {
+    width: 150px;
+    height: 10px;
+}
+.butt {
+    width: 150px;
+    height: 25px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.tabla {
+    border: solid;
+    margin-bottom: 20px;
+}
+.hed {
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
+.regre {
+    text-decoration: none;
+    border: solid;
+    color: black;
+    padding: 5px;
+}

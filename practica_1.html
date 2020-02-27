@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
     <title>Práctica 1</title>
 </head>
 <body>
@@ -24,23 +25,19 @@
     <h3>Envianos tus datos si deseas aplicar</h3>
 
     <form>
-        <div>
+        <div class="formulario">
             <label for="nombre">Nombre</label>
-            <input type="text" name="Nombre" >
-        </div>
-        <div>
+            <input class="entr" type="text" name="Nombre" >
+
             <label for="apellido">Apellido</label>
-            <input type="text" name="Apellido" >
-        </div>
-        <div>
+            <input class="entr" type="text" name="Apellido" >
+
             <label for="correo">Correo</label>
-            <input type="email" name="Correo">
-        </div>
-        <div>
+            <input class="entr" type="email" name="Correo">
+
             <label for="telefono">Teléfono</label>
-            <input type="tel" name="Teléfono">
-        </div>
-        <div>
+            <input class="entr" type="tel" name="Teléfono">
+
             <label for="ciudad">Ciudad</label>
             <select name="ciudad">
                 <option value="madrid">Madrid</option>
@@ -49,19 +46,18 @@
         </div><br>
         <div>
             <strong>Cargo al cual desea postularse</strong><br>
-            <label for="cargo">Desarrollador Front-end</label>
-            <input type="radio" name="cargo"><br>
-            <label for="cargo">Desarrollador Back-end</label>
             <input type="radio" name="cargo">
+            <label for="cargo">Desarrollador Front-end</label><br>
+            <input type="radio" name="cargo">
+            <label for="cargo">Desarrollador Back-end</label>
         </div>
-        <div>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpiar campos">
+        <div style="padding-top: 15px;">
+            <input class="butt" type="submit" value="Enviar">
+            <input class="butt" type="reset" value="Limpiar campos">
         </div>
-        <div></div>
     </form><br>
 
-    <a href="practica_2.html">Ver tabla salarial</a><br>
+    <a class="regre" href="practica_2.html">Ver tabla salarial</a><br>
 
     <footer style="text-align: center;">
         <p>Todos los derechos de autor reservados para Contoso, C.A.</p>
