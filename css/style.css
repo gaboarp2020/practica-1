@@ -1,0 +1,62 @@
+h1,h2,h3{
+            font-family: 'Trade Winds', Helvetica, sans-serif;
+        }
+
+body   {
+            font-family: 'Oxanium', Helvetica, sans-serif;
+        }
+
+.formulario 
+            {
+                display: flex;
+                width: 320px;
+                margin: 10px;
+                padding: 10px;
+                border-radius: 10px;
+                border: 1px;
+                flex-direction: column;
+            }
+
+.boton 
+            {
+                display: flex;
+                width: 320px;
+                margin: 10px;
+                padding: 10px;
+                border-radius: 10px;
+                border: 1px;
+                flex-direction: row;
+            }
+.tabla {
+            flex-direction: column;
+            display:flex;
+            align-items: center;
+            padding: 300px;
+            text-align: center;
+
+
+            
+            
+        }
+
+.tr  {
+        flex-grow: ;
+     }
+
+.link
+{
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+td, tr {
+    border: solid 1px black;
+}
